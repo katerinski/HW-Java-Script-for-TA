@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework7</title>
+</head>
+
+<body>
+
+    <p id='text'>I learning JavaScript events!</p>
+    <div>
+        <button onclick="changeCSS()">Change style!</button>
+    </div>
+
+    <p id='text2'>Buttons for the second task</p>
+    <div>
+        <button onclick="makeColorBlue('blue')">Click to make page blue!</button>
+        <button ondblclick="makeColorBlue('pink')">Double click to make page pink!</button>
+        <button onmousedown="makeColorBlue('brown')" onmouseup="makeColorBlue('white')">Click and hold to make page
+            brown!</button>
+    </div>
+    <br>
+
+    <a href="https://www.w3schools.com" onmouseover="makeColorBlue('yellow')" onmouseout="makeColorBlue('white')">My
+        link to w3schools</a>
+    <br><br>
+
+    <div>
+        <select id="name_id" style="width: 100px;">
+            <option value="peter">Peter</option>
+            <option value="john">John</option>
+            <option value="alise">Alise</option>
+            <option value="alex">Alex</option>
+            <option value="iren">Iren</option>
+        </select>
+        <button onclick="deleteElementFromList()">Choose and Delete</button>
+    </div>
+    <br><br>
+
+    <button id="liveBtn">Live button!</button>
+    <div id="liveText"></div>
+
+    <p>Height: <span id="height"></span></p>
+    <p>Width: <span id="width"></span></p>
+    <br><br>
+
+    <select name="country" id="country" onchange="onCountryChanged()" style="width: 100px;">
+        <option value="ger">Germany</option>
+        <option value="usa">USA</option>
+        <option value="ukr">Ukraine</option>
+    </select>
+
+    <select name="cities" id="cities" onchange="onCityChanged()" style="width: 100px;"></select>
+    <p id="selectedCity"></p>
+
+
+    <script src="/homework7/Homework7.js"></script>
+</body>
+
+</html>
