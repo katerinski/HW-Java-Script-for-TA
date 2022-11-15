@@ -4,7 +4,7 @@
   "description": "homework",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/katerinski/HW-Java-Script-for-TA/issues"
   },
-  "homepage": "https://github.com/katerinski/HW-Java-Script-for-TA#readme"
+  "homepage": "https://github.com/katerinski/HW-Java-Script-for-TA#readme",
+  "dependencies": {
+    "node-static": "^0.7.11",
+    "server": "^1.0.37"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
 }
