@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/katerinski/HW-Java-Script-for-TA#readme",
   "dependencies": {
+    "mocha": "^10.1.0",
     "node-static": "^0.7.11",
+    "selenium-webdriver": "^4.6.1",
     "server": "^1.0.37"
   },
   "devDependencies": {
